@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #FFF0E3;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 100;
+letter-spacing: 1px;
+
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.logo h1{
+    font-size: 40px;
+}
+.mm-width{
+    max-width: 1280px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #fff;
+    align-items: center;
+    margin-top:40px ;
+   
+}
+
+header{
+ background-color: #FFF0E3;
+}
+.first-sec{
+  background-color:#FFF0E3;
+
+}
+.navOne{
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+   
+}
+.navOne a{
+    text-decoration: none;
+    color: black;
+}
+.navTwo{
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+   
+}
+.navTwo a{
+    text-decoration: none;
+    color: black;
+}
+ 
+.shoes h1{
+ font-size: 60px;
+ text-align: center;
+ 
+ max-width:980px;
+ margin: auto;
+margin-top: 80px;
+
+}
+.button{
+color: #fff;
+
+background-color:rgb(217, 150, 85);
+display:flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 50px;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 100px;
+border-radius: 5px;
+
+}
+
+.shoes-grp{
+    max-width:1150px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.main{
+    max-width:1150px;
+    margin: auto;
+}
+
+.section-two{
+    background-color: #fff;
+
+}
+.content h2{
+    padding-top: 140px;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.content p{
+    margin-bottom: 60px;
+    font-size: 18px;
+
+}
+
+.main h1{
+    position: relative;
+    bottom:100px;
+    font-size: 40px;
+    margin-left: 20px;
+    
+ 
+}
+.section-three{
+   background-color: #fff;
+   
+}
+.main-two{
+    max-width:1150px;
+    margin: auto;
+    border-bottom: 1px solid gray;
+}
+.img-card{
+    display: flex;
+    gap: 15px;
+}
+
+.section-four{
+    padding-top: 140px;
+    background-color: #fff;
+}
+
+.discount{
+    max-width:1150px;
+    margin: auto;
+    
+}
+.discount h2{
+    font-size: 50px;
+}
+.discount a{
+background-color:rgb(217, 150, 85);
+padding: 15px 30px;
+color: #fff;
+border-radius: 5px;
+
+margin-left:850px;
+}
+.discount h5{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.discount p{
+    font-weight: 200;
+}
+.boy-shoe{
+    background-color: rgb(31, 28, 28);
+color: #fff;
+padding-top: 100px;
+}
+
+.wrapper {
+	background-color:  rgb(31, 28, 28);
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+    max-width:1150px;
+    margin: auto;
+   
+}
+
+.wrapper:before, .wrapper:after {
+	content: "";
+	position: absolute;
+	height: 200px;
+	width: 300px;
+	z-index: 2;
+}
+
+.wrapper:after {
+	right: 0px;
+	top: 0;
+	transform: rotateZ(180deg);
+}
+
+.wrapper:before {
+	left: 0;
+	top: 0;
+}
+
+.wrapper .track {
+	display: flex;
+	width: calc(150px * 6);
+	animation: scroll 10s 0.5s linear infinite;
+}
+
+.wrapper .logo {
+	width: 300px;
+}
+
+.wrapper .logo img {
+	height: 200px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+@keyframes  scroll {
+	from {
+		transform: translatey(0);
+	}
+	to {
+		transform: translateX(calc(-200px * 5));
+	}
+}
+.section-five{
+    background-color: #fff;
+}
+
+.treanding-brand{
+    max-width:1150px;
+    margin: auto;
+    padding-top:140px ;
+    padding-bottom: 140px;
+ 
+}
+.treanding-brand h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.brand-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.section-six{
+    max-width:1150px;
+    margin: auto;
+}
+.our-purpose h1{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.our-purpose .p1{
+    margin-bottom: 15px;
+}
+.our-purpose .p2{
+    margin-bottom: 50px;
+}
+
+.our-purpose a{
+    background-color:rgb(217, 150, 85);
+padding: 15px 30px;
+color: #fff;
+border-radius: 5px;
+}
+
+.social{
+    padding-top: 140px;
+    
+    background-color: #fff;
+}
+.social-container{
+    max-width:1150px;
+    margin: auto;
+    padding-bottom: 140px;
+   
+}
+
+.social-content h1{
+font-size: 50px;
+margin-bottom: 100px;
+}
+.social-img{
+width: 280px; 
+height: 350px;
+ display: flex;
+ gap: 25px;
+ 
+   
+}
+footer{
+    background-color: black;
+    color: #eef8e3;
+    text-align: center;
+  
+}
+.footer-content h1{
+    padding-top: 70px;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.menu{
+    display: none;
+}
+
+.footer-one{
+    max-width:1150px;
+    margin: auto;
+    display: flex;
+justify-content: space-around;
+margin-top: 30px;
+    
+   
+}
+.footer-two{
+    max-width:1150px;
+    margin: auto;
+    display: flex;
+justify-content: space-around;
+margin-top: 30px;
+    
+   padding-bottom: 100px;
+}
+
+
+@media(max-width:800px){
+
+  body{
+    background-color: #FFF0E3;
+    overflow-x: hidden;
+  }
+
+  .shoes-grp img{
+   
+width: 250px;
+height: 150px;
+ display: flex;
+overflow: hidden;
+  
+}
+.menu{
+    display: block;
+    margin-right: 20px;
+    background-color: rgb(74, 78, 78);
+}
+.img1{
+padding-left: 20px;
+
+}
+.img4{
+    padding-right: 20px;
+   
+}
+.section-two{
+    background-color: #fff;
+    padding-left: 20px;
+
+}
+.section-three{
+    padding-left: 20px;
+}
+.boy-shoe{
+    text-align: center;
+}
+.discount a{
+   padding-top: 8px;
+   padding-bottom: 8px;
+
+    margin-left:0px;
+    display: inline;
+   
+    }
+    .discount h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .discount h5{
+       margin-top: 15px;
+       font-size: 20px;
+      
+    }
+
+    .treanding-brand{
+        padding-left: 20px;
+        
+    }
+    .brand-img{
+        width: 450pxpx;
+        height: 170px;
+       display: flex;
+       gap: 10px;
+   overflow-x: auto;
+ 
+        
+    }
+   
+    .treanding-brand h3{
+        font-size: 30px;
+    }
+    .treanding-brand p{
+        font-size: 14px;
+    }
+
+    .our-purpose{
+        padding-left: 20px;
+    }
+    .our-purpose h1{
+        font-size: 30px;
+        padding-right: 5px;
+    }
+    .our-purpose p{
+        font-size: 14px;
+    }
+.our-purpose-img{
+    margin-top: 50px;
+    width: 210px;
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+}
+
+.social-container{
+    padding-left: 20px;
+}
+
+.social-img{
+    width: 200px;
+    height: 200px;
+    overflow-x: scroll;
+    width: 450px;
+   
+}
+
+.img{
+    width: 600px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+    
+}
+.main h1{
+    bottom: 850px;
+    padding-left: 30px;
+}
+.img-card{
+    width: 100%px;
+    height: 300px;
+    overflow-x: auto;
+}
+.navOne{
+    display: none;
+}
+.navTwo{
+    display: none;
+}
+.logo{
+    padding-left: 20px;
+}
+.shoes h1{
+    font-size: 40px;
+}
+.content h2{
+    font-size: 40px;
+}
+.content p{
+    font-size: 14px;
+}
+}
+
